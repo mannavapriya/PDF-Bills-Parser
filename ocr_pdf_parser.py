@@ -14,7 +14,7 @@ import json
 from getpass import getpass
 
 # CONFIG
-openai.api_key = getpass("Enter your open ai API key: ")
+openai.api_key = getpass("Enter your openAI API key: ")
 
 # Input folder for bills
 INPUT_DIR = './files'
